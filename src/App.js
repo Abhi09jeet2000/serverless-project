@@ -21,7 +21,7 @@ function App() {
   const [userLocation, setUserLocation] = useState('')
   const [userInterests, setUserInterests] = useState('')
   const [allUserData, setAllUserData] = useState([])
-  const [currentUser, setCurrentUser] = useState('user@gmail.com')
+  const [currentUser, setCurrentUser] = useState('user1@gmail.com')
 
   const getUserData = () => {
     api({
